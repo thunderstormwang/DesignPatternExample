@@ -24,7 +24,6 @@ namespace ChainOfResponsibility.OriginalSample
                         {
                             result.Result = true;
                         }
-
                     }
                 }
             }

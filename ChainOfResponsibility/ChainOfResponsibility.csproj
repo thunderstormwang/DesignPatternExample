@@ -43,6 +43,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CheckResult.cs" />
+    <Compile Include="CorExample\ChainContext.cs" />
+    <Compile Include="CorExample\FirstDateChecker.cs" />
+    <Compile Include="CorExample\FormatChecker.cs" />
+    <Compile Include="CorExample\HeadChecker.cs" />
+    <Compile Include="CorExample\LengthChecker.cs" />
+    <Compile Include="CorExample\SecondDateChecker.cs" />
+    <Compile Include="FakeDataSource.cs" />
     <Compile Include="OriginalSample\FormatChecker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -50,5 +57,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
