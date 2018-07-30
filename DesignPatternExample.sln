@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeExample", "FacadeExample\FacadeExample.csproj", "{2B1B1427-773C-47CF-98B6-86E60DC24499}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterExample", "AdapterExample\AdapterExample.csproj", "{6E0D720A-F6D7-4737-A014-F3F7A1F99953}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2B1B1427-773C-47CF-98B6-86E60DC24499}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B1B1427-773C-47CF-98B6-86E60DC24499}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B1B1427-773C-47CF-98B6-86E60DC24499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E0D720A-F6D7-4737-A014-F3F7A1F99953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E0D720A-F6D7-4737-A014-F3F7A1F99953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E0D720A-F6D7-4737-A014-F3F7A1F99953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E0D720A-F6D7-4737-A014-F3F7A1F99953}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
