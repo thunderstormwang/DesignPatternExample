@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CheckResult.cs" />
+    <Compile Include="CorByDelegateSample\FormatChecker.cs" />
     <Compile Include="CorExample\ChainContext.cs" />
     <Compile Include="CorExample\FirstDateChecker.cs" />
     <Compile Include="CorExample\FormatChecker.cs" />

@@ -24,7 +24,7 @@ namespace SingletonSample
             i += 1;
         }
 
-        public static object SingletonObject
+        public static SingletonClass SingletonObject
         {
             get
             {
