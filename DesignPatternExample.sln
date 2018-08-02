@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonSample", "Singleto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{26595D13-67F2-476B-9DF9-B3BD43EC2B5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactryExample", "SimpleFactryExample\SimpleFactryExample.csproj", "{EB85139B-EC4B-425A-809C-72A9AB042EBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{26595D13-67F2-476B-9DF9-B3BD43EC2B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26595D13-67F2-476B-9DF9-B3BD43EC2B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26595D13-67F2-476B-9DF9-B3BD43EC2B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB85139B-EC4B-425A-809C-72A9AB042EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB85139B-EC4B-425A-809C-72A9AB042EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB85139B-EC4B-425A-809C-72A9AB042EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB85139B-EC4B-425A-809C-72A9AB042EBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
