@@ -10,12 +10,12 @@ namespace SimpleFactryExample
             commucation.Connect("192.168.0.1:8888");
             Console.ReadLine();
 
-            var commucation = FactorySample02.CommucationFactory.GetInstance(FactorySample02.CommucationType.SerialPortTcp);
-            commucation.Connect("192.168.0.1:8888");
+            var commucation02 = FactorySample02.CommucationFactory.GetInstance(FactorySample02.CommucationType.SerialPort);
+            commucation02.Connect("192.168.0.1:8888");
             Console.ReadLine();
 
-            var commucation = FactorySample03.CommucationFactory.GetInstance(FactorySample03.CommucationType.Tcp);
-            commucation.Connect("192.168.0.1:8888");
+            var commucation03 = FactorySample03.CommucationFactory.GetInstance(FactorySample03.CommucationType.Tcp);
+            commucation03.Connect("192.168.0.1:8888");
             Console.ReadLine();
         }
     }

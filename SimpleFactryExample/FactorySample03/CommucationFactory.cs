@@ -28,7 +28,7 @@ namespace SimpleFactryExample.FactorySample03
     {
         private static Dictionary<CommucationType, Type> _resources;
 
-        public static CommucationResources()
+        static CommucationResources()
         {
             _resources = new Dictionary<CommucationType, Type>();
             _resources[CommucationType.Tcp] = typeof(TcpCommunication);
