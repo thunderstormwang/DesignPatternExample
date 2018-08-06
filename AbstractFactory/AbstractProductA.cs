@@ -1,4 +1,4 @@
-﻿namespace AbstractFactorySample
+﻿namespace AbstractFactory
 {
     /// <summary>
     /// 產品 A 的一般化

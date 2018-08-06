@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1D798DAD-84F3-4572-A282-EB9FDE66D887}</ProjectGuid>
+    <ProjectGuid>{83D160AA-5450-44CA-BE7E-06EFE1E15D07}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AbstractFactory</RootNamespace>
-    <AssemblyName>AbstractFactory</AssemblyName>
+    <RootNamespace>SimpleFactry</RootNamespace>
+    <AssemblyName>SimpleFactry</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,9 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractFactory.cs" />
-    <Compile Include="AbstractProductA.cs" />
-    <Compile Include="AbstractProductB.cs" />
+    <Compile Include="FactorySample01\CommucationFactory.cs" />
+    <Compile Include="FactorySample01\ICommunication.cs" />
+    <Compile Include="FactorySample01\SerialCommunication.cs" />
+    <Compile Include="FactorySample01\TcpCommunication.cs" />
+    <Compile Include="FactorySample02\CommucationFactory.cs" />
+    <Compile Include="FactorySample02\ICommunication.cs" />
+    <Compile Include="FactorySample02\SerialCommunication.cs" />
+    <Compile Include="FactorySample02\TcpCommunication.cs" />
+    <Compile Include="FactorySample03\CommucationFactory.cs" />
+    <Compile Include="FactorySample03\ICommunication.cs" />
+    <Compile Include="FactorySample03\SerialCommunication.cs" />
+    <Compile Include="FactorySample03\TcpCommunication.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

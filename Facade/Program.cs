@@ -1,4 +1,4 @@
-﻿namespace AbstractFactory
+﻿namespace Facade
 {
     public class Program
     {
