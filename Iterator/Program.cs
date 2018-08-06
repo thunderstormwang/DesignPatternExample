@@ -2,10 +2,6 @@
 using Iterator.IteratorSample02;
 using Iterator.IteratorSample03;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Iterator
 {
@@ -37,8 +33,6 @@ namespace Iterator
             {
                 Console.Write(item + " ");
             }
-
-
         }
     }
 }
