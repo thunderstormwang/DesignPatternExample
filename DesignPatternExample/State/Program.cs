@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace State
 {
@@ -15,7 +11,6 @@ namespace State
             StateExample02();
 
             StateExample03();
-
         }
 
         private static void StateExample01()

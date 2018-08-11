@@ -41,5 +41,4 @@ namespace Proxy
             Console.WriteLine("Proxy after request");
         }
     }
-
 }

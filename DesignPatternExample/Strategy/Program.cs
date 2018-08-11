@@ -24,7 +24,7 @@ namespace Strategy
 
         private static void StrategyExample02()
         {
-            // 與 simple factory 很像, 但 strategy 只需知道執行結果就好, 
+            // 與 simple factory 很像, 但 strategy 只需知道執行結果就好,
             // simple factory 會需要知道物件實體
             StrategyExample02.StrategyContext context = new StrategyExample02.StrategyContext();
             context.ExecuteStrategy("Strategy2");
