@@ -75,6 +75,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverSample006", "Observ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverSampleLibrary006", "ObserverSampleLibrary006\ObserverSampleLibrary006.csproj", "{E70B8CC6-0078-46A2-9162-765EE7BEE7B0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vistor", "Vistor", "{BC7833C3-3672-4BE9-8E11-8EEE14ADF585}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VistorSample001", "VistorSample001\VistorSample001.csproj", "{D99C4C1B-BE97-4D43-B7DB-DC7914217DB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -197,6 +201,10 @@ Global
 		{E70B8CC6-0078-46A2-9162-765EE7BEE7B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E70B8CC6-0078-46A2-9162-765EE7BEE7B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E70B8CC6-0078-46A2-9162-765EE7BEE7B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D99C4C1B-BE97-4D43-B7DB-DC7914217DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D99C4C1B-BE97-4D43-B7DB-DC7914217DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D99C4C1B-BE97-4D43-B7DB-DC7914217DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D99C4C1B-BE97-4D43-B7DB-DC7914217DB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -219,6 +227,7 @@ Global
 		{1244D227-D6E8-4442-B9DC-E40AEDA8AEB3} = {CC0946BA-E419-4771-A531-2FDF15995D84}
 		{EA624B97-A454-4F55-ABB6-FC3A17A0B976} = {E44B023C-DA8F-4183-9CD5-BCB8BA6CAB7B}
 		{E70B8CC6-0078-46A2-9162-765EE7BEE7B0} = {E44B023C-DA8F-4183-9CD5-BCB8BA6CAB7B}
+		{D99C4C1B-BE97-4D43-B7DB-DC7914217DB9} = {BC7833C3-3672-4BE9-8E11-8EEE14ADF585}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FE061AE2-9B5D-46BE-8786-74B7779BB62F}
