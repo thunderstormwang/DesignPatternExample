@@ -159,6 +159,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Momento", "Momento", "{142E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MomentoSample001", "MomentoSample001\MomentoSample001.csproj", "{8023B115-F1A9-461B-8BB8-AB23DEF9D9FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeSample007_Extension", "PrototypeSample007_Extension\PrototypeSample007_Extension.csproj", "{48E76BC4-8182-4138-B690-C47B8080D3B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -369,6 +371,10 @@ Global
 		{8023B115-F1A9-461B-8BB8-AB23DEF9D9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8023B115-F1A9-461B-8BB8-AB23DEF9D9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8023B115-F1A9-461B-8BB8-AB23DEF9D9FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E76BC4-8182-4138-B690-C47B8080D3B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E76BC4-8182-4138-B690-C47B8080D3B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E76BC4-8182-4138-B690-C47B8080D3B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E76BC4-8182-4138-B690-C47B8080D3B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -431,6 +437,7 @@ Global
 		{0763FEF3-543F-4668-B66A-EDA4DFA66F16} = {C02CE1FE-AB1F-4391-9AFD-6FF64DBB828C}
 		{FB8849E3-55C6-4AA7-BCA9-DEAB2D006D94} = {99F06F34-E19D-4EC8-9C63-72657886589C}
 		{8023B115-F1A9-461B-8BB8-AB23DEF9D9FF} = {142E34BB-CD82-4C6F-8035-FAC5963B751E}
+		{48E76BC4-8182-4138-B690-C47B8080D3B9} = {8B91892F-DDC9-46B2-B90A-E01ACCE8450E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FE061AE2-9B5D-46BE-8786-74B7779BB62F}
